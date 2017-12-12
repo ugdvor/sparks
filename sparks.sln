@@ -5,6 +5,11 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sparks", "sparks\sparks.csproj", "{299D81AE-0CF6-4505-9A13-CEE95FF6CD15}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{77CEFBFE-CD5C-42D7-85EC-9CD150C6542B}"
+	ProjectSection(SolutionItems) = preProject
+		createDatabase.sql = createDatabase.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
