@@ -1,0 +1,1 @@
+﻿INSERT into sparktest.dbo.ofd (nofd) values('Астрал', 'Тензор');

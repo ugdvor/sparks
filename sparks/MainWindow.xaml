@@ -1,12 +1,16 @@
-﻿<Window x:Class="sparks.MainWindow"
+﻿<Window x:Name="mainForm" x:Class="sparks.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:sparks"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Спарки" Height="350" HorizontalContentAlignment="Stretch">
     <Grid>
-        
+        <Menu x:Name="mainMenu" Height="25" VerticalAlignment="Top" HorizontalContentAlignment="Stretch">
+            <MenuItem x:Name="mainMenuFile" Header="Файл" Height="25" Width="44"/>
+            <MenuItem Header="Правка" Height="25" Width="55"/>
+        </Menu>
+
     </Grid>
 </Window>
