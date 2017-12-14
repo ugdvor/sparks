@@ -53,3 +53,4 @@
 		CONSTRAINT FK_main_ofdID FOREIGN KEY (ofdID) REFERENCES ofd(ID)
 	);
 	print N'TABLE main COMPLETED!';
+	GO;
